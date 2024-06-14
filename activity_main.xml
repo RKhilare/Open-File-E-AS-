@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:text="File Headding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/btnText"
+        android:layout_width="229dp"
+        android:layout_height="95dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Click buttons to download or Open files"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnOpen"
+        android:layout_width="340dp"
+        android:layout_height="87dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:text="Pick file"
+        android:textColor="#ffa500"
+        android:textSize="15sp"/>
+
+
+
+
+</RelativeLayout>
